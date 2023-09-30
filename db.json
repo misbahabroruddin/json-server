@@ -1,9 +1,22 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+  "tasks": [
+    {
+      "title": "React JS",
+      "description": "one of the most popular javascript framework",
+      "status": "finish",
+      "id": 1
+    },
+    {
+      "title": "Devland",
+      "description": "Digital Talent Indonesia",
+      "status": "to do",
+      "id": 2
+    },
+    {
+      "title": "Express JS",
+      "description": "One of the most popular backend framework",
+      "status": "on progress",
+      "id": 3
+    }
+  ]
 }
